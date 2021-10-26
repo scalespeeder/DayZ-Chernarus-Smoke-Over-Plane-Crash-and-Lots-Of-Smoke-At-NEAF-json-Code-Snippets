@@ -1,0 +1,46 @@
+{ 	"AreaName": "single-smoke-chern-plane-crash",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 6561, 0, 2327 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+	{ 	"AreaName": "lots-of-smoke-neaf",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 12398, 0, 12399 ],  
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
